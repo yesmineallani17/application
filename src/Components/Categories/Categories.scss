@@ -1,0 +1,18 @@
+
+
+.sidebar{
+  width: 200px;
+  height: 200px;
+  background-color: red; 
+}
+.Categories_page_container{
+  height: 600px;
+  width: 100%;
+  overflow: auto;
+  .all-categories{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+
+  }
+}

@@ -1,0 +1,36 @@
+.image-side{
+    display: flex;
+}
+.logout_image{
+    margin-left: 50px;
+}
+.logout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 350px;
+    margin-right: 60px;
+    cursor: pointer;
+}
+.image-side{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+.search_log{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+.heldat_img{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.text_dash{
+    margin-left: -15px;
+}
+.home_img{
+    margin-left: 100px;
+}

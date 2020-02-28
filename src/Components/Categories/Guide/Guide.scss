@@ -1,0 +1,102 @@
+.rectangle2{
+  width: 290px;
+  height: 152px;
+  margin-top: 65px;
+  background-color: #f1f5f8;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px 0 rgba(46, 91, 255, 0.07);
+  margin-left: 65px;
+}
+#poub{
+  
+  height: 150px;
+  width: 400px;
+}
+.ed{
+  width: 96px;
+  height: 22px;
+  border-radius: 10px;
+  background-color: #9aa8b9;
+  position: relative;
+  left: 125px;
+  cursor: pointer;
+}
+.poubelle{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  position: relative;
+  left: 260px;
+  top: 35px;
+}
+.culture_img{
+  padding-top: 60px;
+  padding-left: 45px;
+}
+
+.titre4{
+  font-family: Champagne&LimousinesThick;
+  font-size: 15px;
+  font-weight: bold;
+  color: #2b2b2b;
+  margin-top: -60px;
+  margin-left: 130px;
+}
+
+.boutton{
+  width: 96px;
+  height: 22px;
+  border-radius: 11px;
+  background-color: #9aa8b9;
+  margin-left: 135px;
+  margin-top: 10px;
+}
+.add_edit{
+  font-family: Champagne&Limousines;
+  font-size: 13px;
+  font-weight: bold;
+  color: #f6f8fc;
+  padding-left: 18px;
+}
+
+.on_off{
+  width: 44px;
+  height: 20px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 6.7px 1.3px rgba(33, 30, 30, 0.33);
+  border: solid 1px #516276;
+  background-color: #7288a2;
+  margin-left: 230px;
+  margin-top: -100px;
+}
+.circle{
+  width: 16px;
+  height: 17px;
+  border-radius: 7.7px;
+  box-shadow: -3px 0px 4px 0 rgba(0, 0, 0, 0.35);
+  background-color: #f7e200;
+  margin-left: 5px;
+  margin-top: 1px;
+}
+
+.titre5{
+  width: 15px;
+  height: 7px;
+  opacity: 0.55;
+  font-family: Champagne&LimousinesThick;
+  font-size: 9px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.55);
+  margin-left: 23px;
+  margin-top: -15px;
+}
+.Guide_Page_Container{
+  height: 200px;
+  margin: 20px;
+  
+}
