@@ -9,7 +9,7 @@ const Guide = ({ post, onDelete }) => {
       <div className="rectangle2">
         <img className="culture_img" src={post.image} alt="category-img" />
         <div className="titre4">{post.title}</div>
-        <Link to={'/sorting'}>
+        <Link to={`/categories/${post.title}`}>
           <button className="ed">Edit</button>
         </Link>
         {/* <div className="boutton"><div className="add_edit">Add / Edit</div>  </div> */}

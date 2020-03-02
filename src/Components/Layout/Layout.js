@@ -94,7 +94,7 @@ export default function PermanentDrawerLeft() {
         <BrowserRouter>
           <Switch>
             <Route path="/categories" exact component={Categories} />
-            <Route path="/sorting" exact component={Sorting} />
+            <Route path="/categories/:categoryName" exact component={Sorting} />
             <Route path="/article" exact component={Article} />
           </Switch>
         </BrowserRouter>

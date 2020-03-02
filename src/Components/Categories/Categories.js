@@ -59,6 +59,7 @@ const Categories = () => {
   const { loading, data: entitiesData } = useQuery(getEntities, {
     variables: { filter: { parent: '' }, sortField: 'createdAt', sortOrder: 'desc' },
   });
+
   const [createEntity] = useMutation(createEntityMutation, {
     update(cache, { data }) {
       cache.writeQuery({
@@ -104,6 +105,7 @@ const Categories = () => {
       ],
     });
   };
+
   return (
     <div className="Categories_page_container">
       <div className="all-categories">

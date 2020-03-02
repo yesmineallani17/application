@@ -14,22 +14,28 @@ const customStyles = {
   },
 };
 
-const emptyEntity = {
-  id: Math.random()
-    .toString(36)
-    .substr(2, 9),
-  parent: '',
-  title: '',
-  image: '',
-  description: '',
-  rate: 0,
-  location: '',
-  createdAt: new Date().getTime(),
+const emptyEntity = (id) => {
+  return {
+    id,
+    parent: '',
+    title: '',
+    image: '',
+    description: '',
+    rate: 0,
+    location: '',
+    createdAt: new Date().getTime(),
+  };
 };
 
 const AddButton = ({ createEntity }) => {
   const [isModalOpen, setIsModalOpen] = React.useState(false);
-  const [elementData, setElementData] = React.useState(emptyEntity);
+  const [elementData, setElementData] = React.useState(
+    emptyEntity(
+      Math.random()
+        .toString(36)
+        .substr(2, 9)
+    )
+  );
 
   const setData = (data) => {
     setElementData({ ...elementData, ...data });
@@ -38,6 +44,13 @@ const AddButton = ({ createEntity }) => {
   const send = () => {
     createEntity({ variables: { ...elementData } });
     setIsModalOpen(false);
+    setElementData(
+      emptyEntity(
+        Math.random()
+          .toString(36)
+          .substr(2, 9)
+      )
+    );
   };
 
   return (

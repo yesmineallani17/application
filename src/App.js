@@ -55,7 +55,7 @@ class App extends Component {
           <UserContext.Provider value={this.state.user}>
             <UserContext.Consumer>
               {(user) =>
-                user.auth || true ? (
+                user.auth ? (
                   <>
                     {/* <Sidebar logOut={this.logOut}/>
        <Header/>
